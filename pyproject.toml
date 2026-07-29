@@ -1,0 +1,21 @@
+[project]
+name = "anti-fridge"
+version = "0.1.0"
+description = "Динамический тайм-менеджер — Анти-Холодильник"
+requires-python = ">=3.10"
+dependencies = ["flet>=0.86.0"]
+
+[tool.flet]
+app.module = "main"
+app.entrypoint = "main"
+app.path = "."
+app.name = "Анти-Холодильник"
+app.description = "Динамический график дня"
+app.product_name = "AntiFridge"
+app.organization = "AntiFridge"
+app.build_number = "1"
+app.version = "0.1.0"
+
+[tool.flet.android]
+package = "com.antifridge.app"
+adaptive_icon_background = "#0d1117"

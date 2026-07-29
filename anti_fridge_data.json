@@ -1,0 +1,79 @@
+{
+  "days": [
+    {
+      "id": "2026-07-19",
+      "label": "19 Июля",
+      "green_pct": 0,
+      "yellow_pct": 0,
+      "red_pct": 0,
+      "compartments": []
+    },
+    {
+      "id": "2026-07-20",
+      "label": "20 Июля",
+      "green_pct": 0.0,
+      "yellow_pct": 0.0,
+      "red_pct": 0.0,
+      "compartments": []
+    },
+    {
+      "id": "2026-07-27",
+      "label": "Сегодня",
+      "green_pct": 0,
+      "yellow_pct": 0,
+      "red_pct": 0,
+      "compartments": [
+        {
+          "id": 62,
+          "name": "Новый отсек",
+          "from_min": 540,
+          "to_min": 660,
+          "percent": 8.3,
+          "hours": 2.0,
+          "is_active": true,
+          "is_completed": false,
+          "accumulated_min": 0.10026561816533407,
+          "start_ts": 1785179702.5455184,
+          "overtime_min": 0.0,
+          "notified_end": false,
+          "tasks": [
+            {
+              "id": 63,
+              "name": "Главная задача",
+              "from_min": 540,
+              "to_min": 612,
+              "percent": 60,
+              "hours": 1.1952,
+              "is_active": true,
+              "is_completed": false,
+              "accumulated_min": 0.10026558637619018,
+              "start_ts": 1785179702.5455184,
+              "overtime_min": 0.0,
+              "notified_end": false,
+              "subtasks": [
+                {
+                  "id": 64,
+                  "name": "Шаг 1",
+                  "from_min": 540,
+                  "to_min": 576,
+                  "percent": 50,
+                  "hours": 0.5976
+                },
+                {
+                  "id": 65,
+                  "name": "Шаг 2",
+                  "from_min": 575,
+                  "to_min": 611,
+                  "percent": 50,
+                  "hours": 0.5976
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selected_day_id": "2026-07-27",
+  "next_id": 62
+}
